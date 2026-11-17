@@ -1,0 +1,20 @@
+{
+  "name": "pandex",
+  "description": "Official European legislation and court decisions for Claude: search by words, meaning or citation, read any article as it stood on a date, follow citations. EU, FR, DE, NL, UK, AT, CH, LU and the ECHR.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Pandex",
+    "url": "https://pandex.io"
+  },
+  "homepage": "https://pandex.io",
+  "repository": "https://github.com/pandex-io/pandex-mcp",
+  "keywords": [
+    "legal",
+    "law",
+    "legislation",
+    "case-law",
+    "europe",
+    "mcp"
+  ],
+  "license": "MIT"
+}

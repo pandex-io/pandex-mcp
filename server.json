@@ -1,0 +1,22 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.pandex/law",
+  "title": "Pandex",
+  "description": "Search and cite official European legislation and court decisions, by article. Read-only.",
+  "version": "0.1.0",
+  "websiteUrl": "https://pandex.io",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.pandex.io/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Optional. \"Bearer <key>\" raises the limits from 50 to 1,000 requests a day; a key is free at https://api.pandex.io",
+          "isRequired": false,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}
