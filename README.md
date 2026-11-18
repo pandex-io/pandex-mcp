@@ -2,7 +2,7 @@
 
 Official European law for AI agents: legislation with its past versions and the decisions of the highest courts, collected directly from the institutions that publish them, served as passages with their source.
 
-- **Server:** `https://api.pandex.io/mcp` (streamable HTTP, five read-only tools)
+- **Server:** `https://api.pandex.io/mcp` (streamable HTTP, six read-only tools)
 - **No key needed to try it:** 50 requests a day without one. A free key (1,000 a day) takes a minute at [api.pandex.io](https://api.pandex.io).
 - **Held:** European Union, France, Germany, Netherlands, United Kingdom, Austria, Switzerland, Luxembourg, European Court of Human Rights. 2.8 million documents, 37 million citations linked to the text they point at.
 - **Coverage is published per institution**, including what is missing: [api.pandex.io/coverage](https://api.pandex.io/coverage)
@@ -48,6 +48,7 @@ curl -s "https://api.pandex.io/v1/search?format=text" -H "content-type: applicat
 | `get_document` | Read a law, one article or a decision in its official wording, also as it stood on a past date. |
 | `get_outline` | The structure of a long law. |
 | `get_citations` | What cites an article or a decision, the leading ones first, and what it cites. |
+| `get_changes` | What changed in a law, or in the laws of a source or country: the articles whose wording changed, was inserted or repealed, newest first, with the day. |
 | `list_sources` | What is loaded, per jurisdiction and institution. |
 
 Full reference: [api.pandex.io/docs](https://api.pandex.io/docs).
@@ -57,6 +58,7 @@ Full reference: [api.pandex.io/docs](https://api.pandex.io/docs).
 - "What does article 6:162 of the Dutch Civil Code say, and which Hoge Raad decisions cite it most?"
 - "Is a pre-ticked checkbox valid consent for cookies under EU law? Quote the Court of Justice."
 - "Show article 1382 of the French Code civil as it stood on 1 January 2015."
+- "Which articles of Book 7 of the Dutch Civil Code changed since 2020?"
 - "What do you hold for Austria, and what is missing?"
 
 ## Terms
