@@ -1,6 +1,6 @@
 {
   "name": "pandex",
-  "description": "Official European legislation and court decisions for Claude, from Pandex.",
+  "description": "Official legislation and court decisions for Claude, from Pandex.",
   "owner": {
     "name": "Pandex",
     "url": "https://pandex.io"
@@ -9,7 +9,7 @@
     {
       "name": "pandex",
       "source": "./",
-      "description": "Official European legislation and court decisions, by article, with past versions and citations."
+      "description": "Official legislation and court decisions, by article, with past versions and citations."
     }
   ]
 }

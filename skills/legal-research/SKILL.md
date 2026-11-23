@@ -1,6 +1,6 @@
 ---
 name: legal-research
-description: Answer questions about European law (EU, France, Germany, Netherlands, United Kingdom, Austria, Switzerland, Luxembourg, ECHR) from the official texts with the Pandex tools. Use when a question asks what a law or court decision says, what an article said on a past date, or which decisions cite a provision.
+description: Answer questions about the law of any jurisdiction Pandex holds (today the EU, France, Germany, Netherlands, United Kingdom, Austria, Switzerland, Luxembourg and the ECHR; call `list_sources` for the current list) from the official texts with the Pandex tools. Use when a question asks what a law or court decision says, what an article said on a past date, or which decisions cite a provision.
 ---
 
 # Legal research with Pandex

@@ -1,10 +1,10 @@
 # Pandex MCP
 
-Official European law for AI agents: legislation with its past versions and the decisions of the highest courts, collected directly from the institutions that publish them, served as passages with their source.
+Official law for AI agents: legislation with its past versions and the decisions of the highest courts, collected directly from the institutions that publish them, served as passages with their source.
 
 - **Server:** `https://api.pandex.io/mcp` (streamable HTTP, six read-only tools)
 - **No key needed to try it:** 50 requests a day without one. A free key (1,000 a day) takes a minute at [api.pandex.io](https://api.pandex.io).
-- **Held:** European Union, France, Germany, Netherlands, United Kingdom, Austria, Switzerland, Luxembourg, European Court of Human Rights. 2.8 million documents, 37 million citations linked to the text they point at.
+- **Held today:** European Union, France, Germany, Netherlands, United Kingdom, Austria, Switzerland, Luxembourg, European Court of Human Rights. 2.8 million documents, 37 million citations linked to the text they point at. More countries are being added, in and beyond Europe.
 - **Coverage is published per institution**, including what is missing: [api.pandex.io/coverage](https://api.pandex.io/coverage)
 - **See what it returns:** every article also has a public page, for example [GDPR art. 6](https://www.pandex.io/law/eu.legislation/32016R0679/art_6) or [§ 253 ZPO](https://www.pandex.io/law/de.gii/BJNR005330950/art_253)
 

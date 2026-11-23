@@ -1,6 +1,6 @@
 {
   "name": "pandex",
-  "description": "Official European legislation and court decisions for Claude: search by words, meaning or citation, read any article as it stood on a date, follow citations. EU, FR, DE, NL, UK, AT, CH, LU and the ECHR.",
+  "description": "Official legislation and court decisions for Claude, from the governments and courts that publish them: search by words, meaning or citation, read any article as it stood on a date, follow citations. Live today: EU, FR, DE, NL, UK, AT, CH, LU and the ECHR; more countries next.",
   "version": "0.1.0",
   "author": {
     "name": "Pandex",
@@ -14,6 +14,7 @@
     "legislation",
     "case-law",
     "europe",
+    "worldwide",
     "mcp"
   ],
   "license": "MIT"
