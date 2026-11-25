@@ -1,5 +1,7 @@
 # Pandex MCP
 
+[![Pandex MCP connector](https://glama.ai/mcp/connectors/io.pandex/law/badges/score.svg)](https://glama.ai/mcp/connectors/io.pandex/law)
+
 Official law for AI agents: legislation with its past versions and the decisions of the highest courts, collected directly from the institutions that publish them, served as passages with their source.
 
 - **Server:** `https://api.pandex.io/mcp` (streamable HTTP, six read-only tools)
