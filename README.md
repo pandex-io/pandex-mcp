@@ -2,13 +2,13 @@
 
 [![Pandex MCP connector](https://glama.ai/mcp/connectors/io.pandex/law/badges/score.svg)](https://glama.ai/mcp/connectors/io.pandex/law)
 
-Official law for AI agents: legislation with its past versions and the decisions of the highest courts, collected directly from the institutions that publish them, served as passages with their source.
+Official law for AI agents: legislation with its past versions and court decisions, collected directly from the institutions that publish them, served as passages with their source.
 
 - **Server:** `https://api.pandex.io/mcp` (streamable HTTP, six read-only tools)
-- **No key needed to try it:** 50 requests a day without one. A free key (1,000 a day) takes a minute at [api.pandex.io](https://api.pandex.io).
-- **Held today:** European Union, France, Germany, Netherlands, United Kingdom, Austria, Switzerland, Luxembourg, European Court of Human Rights. 2.8 million documents, 37 million citations linked to the text they point at. More countries are being added, in and beyond Europe.
-- **Coverage is published per institution**, including what is missing: [api.pandex.io/coverage](https://api.pandex.io/coverage)
-- **See what it returns:** every article also has a public page, for example [GDPR art. 6](https://www.pandex.io/law/eu.legislation/32016R0679/art_6) or [§ 253 ZPO](https://www.pandex.io/law/de.gii/BJNR005330950/art_253)
+- **No key needed to try it:** 50 requests a day without one. A free key (1,000 a day) takes a minute at [pandex.io/key](https://www.pandex.io/key).
+- **Held today:** 25 countries and the European Union, 24.4 million documents: the United States, Brazil, France, Austria, Spain, the Netherlands, Italy, Czechia, Mexico, Switzerland, Portugal, Belgium, Denmark, the United Kingdom, Poland, Canada, Germany, Finland, Djibouti, Luxembourg, Sweden, Tunisia, Malta, Curaçao and Nigeria, and the European Court of Human Rights. More countries every week.
+- **Coverage is published per source**, including what is missing: [pandex.io/coverage](https://www.pandex.io/coverage)
+- **Docs:** [docs.pandex.io](https://docs.pandex.io), with the API reference
 
 ## Connect
 
@@ -53,7 +53,7 @@ curl -s "https://api.pandex.io/v1/search?format=text" -H "content-type: applicat
 | `get_changes` | What changed in a law, or in the laws of a source or country: the articles whose wording changed, was inserted or repealed, newest first, with the day. |
 | `list_sources` | What is loaded, per jurisdiction and institution. |
 
-Full reference: [api.pandex.io/docs](https://api.pandex.io/docs).
+Full reference: [docs.pandex.io](https://docs.pandex.io).
 
 ## Things to ask
 
@@ -65,7 +65,7 @@ Full reference: [api.pandex.io/docs](https://api.pandex.io/docs).
 
 ## Terms
 
-The texts come from official publications and remain the publishers'; each source's reuse terms are linked on the coverage page. They are not the authentic versions, and nothing here is legal advice. [Terms](https://pandex.io/terms) · [Privacy](https://pandex.io/privacy) · [pandex.io](https://pandex.io)
+The texts come from official publications and remain the publishers'; each source's reuse terms are linked on the coverage page. They are not the authentic versions, and nothing here is legal advice. [Terms](https://www.pandex.io/terms) · [Privacy](https://www.pandex.io/privacy) · [pandex.io](https://www.pandex.io)
 
 The files in this repository are under the MIT licence; the legal texts served are not part of it.
 
